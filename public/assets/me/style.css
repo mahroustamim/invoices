@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+body {
+    font-family: "Cairo", sans-serif !important;
+}
+
+
+/* ================================ section  ========================= */
+/* modal */
+.btn-close {
+    margin-top: 2px !important;
+    margin-right: 310px !important;
+}
+
+.centered-content {
+    vertical-align: middle !important;
+}
+
+
+
+/* ================================ end section  ====================== */
+/* ================================ invoces_details  ====================== */
+
+/* Change the color of the tabs to white */
+.light {
+    background-color: white !important;
+    padding: 20px !important;
+}
+.nav-tabs .nav-link {
+    background-color: white !important;
+    border-color: #ddd !important;
+    margin-left: 10px !important;
+    border-radius:  30px !important;
+}
+
+.nav-tabs .nav-link.active {
+    color: white !important;
+    background-color: blue !important;
+    border-color: #ddd !important; 
+}
+
+.nav-tabs .nav-link:hover {
+    color: white !important;
+    background-color: blue !important;
+    border-color: #dee2e6 #dee2e6 #fff !important; 
+}
+
+/* ================================ end invoces_details  ====================== */
+
+
+
