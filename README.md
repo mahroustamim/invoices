@@ -1,5 +1,6 @@
 ## invoices management system
-invoice management system for debt collection company created by laravel and mysql  
+invoice management system for debt collection company created by laravel and mysql 
+![Alt text](image link)
 ## features
 
 - sections (add - edit - delete)
