@@ -34,7 +34,7 @@ $ php artisan serve
 
 ## database
 
-
+![Alt text](https://github.com/mahroustamim/invoices/blob/main/database.png)
 
 ## License
 
