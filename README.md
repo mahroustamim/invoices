@@ -10,6 +10,7 @@ invoice management system for debt collection company created by laravel and MyS
 - sections (add - edit - delete)
 - products (add - edit - delete)
 - invoices (add - edit - delete - print -  change payment status - export excel)
+- invoice attachments (add - edit)
 - sent notification to all members after adding a new invoice
 - sent an email to all members after adding a new invoice
 - admin can add new users and define their permissions and roles
