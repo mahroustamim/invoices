@@ -1,11 +1,16 @@
 ## invoices management system
-invoice management system for debt collection company created by laravel and mysql 
-![Alt text](image link)
+invoice management system for debt collection company created by laravel and MySQL 
+
+
+![Alt text](https://github.com/mahroustamim/invoices/blob/main/home.png)
+
+
 ## features
 
 - sections (add - edit - delete)
 - products (add - edit - delete)
 - invoices (add - edit - delete - print -  change payment status - export excel)
+- invoice attachments (add - edit)
 - sent notification to all members after adding a new invoice
 - sent an email to all members after adding a new invoice
 - admin can add new users and define their permissions and roles
