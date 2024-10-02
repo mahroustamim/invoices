@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Invoice;
 
+
 class HomeController extends Controller
 {
     /**
@@ -23,6 +24,9 @@ class HomeController extends Controller
         $x = round(Invoice::where('value_status', 1)->count() /  \App\Models\Invoice::count()  * 100, 1);
         $y = round(Invoice::where('value_status', 2)->count() /  \App\Models\Invoice::count()  * 100, 1);
         $z = round(Invoice::where('value_status', 3)->count() /  \App\Models\Invoice::count()  * 100, 1);
+        // $x = 100;
+        // $y = 80;
+        // $z = 50;
 
 
 $bar = app()->chartjs
@@ -68,10 +72,6 @@ $pie = app()->chartjs
             ]
         ])
         ->options([]);
-
-
-
-
 
         return view('home', compact('bar', 'pie'));
     }

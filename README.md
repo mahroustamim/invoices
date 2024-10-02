@@ -7,15 +7,15 @@ invoice management system for debt collection company created by laravel and MyS
 
 ## features
 
-- sections (add - edit - delete)
-- products (add - edit - delete)
-- invoices (add - edit - delete - print -  change payment status - export excel)
-- invoice attachments (add - edit)
-- sent notification to all members after adding a new invoice
-- sent an email to all members after adding a new invoice
-- admin can add new users and define their permissions and roles
-- page for reports 
-- pagination to all tables
+- Sections: Add, edit, delete
+- Products: Add, edit, delete
+- Invoices: Add, edit, delete, print, change payment status, export to Excel
+- Invoice Attachments: Add, edit
+- Notifications: Send notifications to all members after adding a new invoice
+- Email Alerts: Send emails to all members after adding a new invoice
+- User Management: Admins can add new users and define roles and permissions
+- Reports Page: View reports
+- Pagination: Applied to all tables for easy navigation
 
 ## installation 
 
@@ -31,11 +31,6 @@ $ php artisan serve
 ```
 
 
-
-## database
-
-![Alt text](https://github.com/mahroustamim/invoices/blob/main/database.png)
-
 ## License
 
-gym management systeme is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Invoices management systeme is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).

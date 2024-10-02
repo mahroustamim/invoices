@@ -98,6 +98,7 @@ class UserController extends Controller
         if(!empty($input['password'])){ 
             $input['password'] = Hash::make($input['password']);
         }else{
+            //delete password from input array
             $input = Arr::except($input,array('password'));    
         }
     
